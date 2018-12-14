@@ -7,7 +7,7 @@ import javax.inject.Named;
 import java.io.Serializable;
 
 @Named
-@RequestScoped
+@SessionScoped
 public class FormBean implements Serializable {
 
     private String login;
