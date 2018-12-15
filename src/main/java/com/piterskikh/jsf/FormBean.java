@@ -6,7 +6,7 @@ import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 import java.io.Serializable;
 
-@Named
+@Named("form")
 @SessionScoped
 public class FormBean implements Serializable {
 

@@ -10,14 +10,14 @@
 
 <h:body>
 
-    <h:outputText value="#{exampleBean.name}"/>
+    <h:outputText value="#{example.name}"/>
 
     <h:form>
-        Login: <h:inputText value="#{formBean.login}"/>
+        Login: <h:inputText value="#{form.login}"/>
         <br/>
-        Password: <h:inputText value="#{formBean.password}"/>
+        Password: <h:inputText value="#{form.password}"/>
         <br/>
-        <h:commandLink value="Enter" action="#{formBean.doLogin}"/>
+        <h:commandLink value="Enter" action="#{form.doLogin}"/>
     </h:form>
 </h:body>
 </html>
